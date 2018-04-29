@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_login"
+            android:title="Login"
+            android:icon="@drawable/ic_login_session_black_24dp" />
+
+        <item
+            android:id="@+id/nav_nueva_emergencia"
+            android:title="Nueva Emergencia"
+            android:icon="@drawable/ic_new_emer_black_24dp" />
+
+        <item
+            android:id="@+id/nav_emergencia"
+            android:title="Ver Emergencia"
+            android:icon="@drawable/ic_ver_black_24dp" />
+
+        <item
+            android:id="@+id/nav_nuevo_incidente"
+            android:title="Nuevo Incidente"
+            android:icon="@drawable/ic_new_inc_black_24dp" />
+
+        <item
+            android:id="@+id/nav_incidentes"
+            android:title="Ver Incidente"
+            android:icon="@drawable/ic_ver_inc_black_24dp" />
+
+        <item
+            android:id="@+id/nav_recoger_basura"
+            android:title="Recojo Basura"
+            android:icon="@drawable/ic_trash_black_24dp" />
+
+        <item
+            android:id="@+id/nav_instituciones_publicas"
+            android:title="Instituciones Publicas"
+            android:icon="@drawable/ic_flag_black_24dp" />
+
+        <item
+            android:id="@+id/nav_customers"
+            android:title="Salir"
+            android:icon="@drawable/ic_exit_black_24dp" />
+
+
+    </group>
+</menu>

@@ -1,0 +1,34 @@
+Principales tecnologías
+-------------------------
+Java
+Android SDK
+CardView y recyclerview
+Google maps - play-services-maps
+
+Pasos principales
+--------------------
+-Creación del proyecto
+-Agregados de CardView y recyclerview
+-Sincronización del gradle
+-Implementación del activity Main
+-Implementación del NavigationView y drawer view para el menu
+-Implementación del fragmento Clientes
+-Implementación del fragmento Clientes detail
+-Implementación del modelo, servicio y adaptador para los objetos Clientes en clases Java
+-Implementación del item cliente para su uso en el fragmento service
+-Se creo API KEY para maps google
+-Se agregó 'com.google.android.gms:play-services-maps:10.2.1' ***VER NOTA AL FINAL
+-Se insertó API key en gradle.properties
+-Se agrego tags meta-data para soporte de mapas en AndroidManifest.xml
+-Se creó clase fragmento y layout para mapa
+-Layout del mapa contiene objeto visual de google maps 'MapView'
+-Desde customerDetailFragment (un detalle de un cliente) se invoca al fragmento de maps mandando parámetros através del bundle
+-Clase MapsFragment crea objeto MapView para ver el mapa
+-Se indica el marcador con la latitud y longitud enviada en el mapa
+
+***NOTA: Se ha usado el google play services 10.2.0 para soporte legado. (Se necesita esta versión o superior para el funcionamiento de la app en el dispositivo/emulador)
+
+Gracias.
+
+Joel Ramirez
+u201625098

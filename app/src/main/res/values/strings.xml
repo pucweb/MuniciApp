@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Tarea3</string>
+    <string name="action_settings">Settings</string>
+    <string name="customers">Customers</string>
+    <string name="menu_title">Customers 4 U</string>
+
+    <string name="name_4">Nueva Emergencia</string>
+    <string name="service_4">Mandar alerta de emergencia</string>
+    <string name="contact_4">Si deseas reportar una emergencia, favor de presionar el boton inferior</string>
+    <string name="address_4">Para cualquier consulta llamar a la central 347-1983</string>
+    <string name="latitude_4">-12.0240527</string>
+    <string name="longitude_4">-77.112036</string>
+
+    <string name="name_2">Nuevo Incidente</string>
+    <string name="service_2">Mandar alerta de Incidentes</string>
+    <string name="contact_2">Si deseas reportar un incidente, favor de presionar el boton inferior</string>
+    <string name="address_2">Para cualquier consulta llamar a la central 347-1983</string>
+    <string name="latitude_2">-12.0866304</string>
+    <string name="longitude_2">-77.0143626</string>
+
+    <string name="name_1">Recojo de la basura</string>
+    <string name="service_1">Verificar el recorrido del camion de basura</string>
+    <string name="contact_1">Si deseas verificar el recorrido del camion de basura, favor de presionar el boton inferior</string>
+    <string name="address_1">Para cualquier consulta llamar a la central 347-1983</string>
+    <string name="latitude_1">-12.0877223</string>
+    <string name="longitude_1">-77.0499635</string>
+
+    <string name="name_3">Instituciones Publicas</string>
+    <string name="service_3">Revisar otras instituciones publicas</string>
+    <string name="contact_3">Si deseas verificar otras instituciones publicas, favor de presionar el boton inferior</string>
+    <string name="address_3">Para cualquier consulta llamar a la central 347-1983</string>
+    <string name="latitude_3">-12.0928052</string>
+    <string name="longitude_3">-77.0267401</string>
+
+
+
+    <string name="map">See map</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
