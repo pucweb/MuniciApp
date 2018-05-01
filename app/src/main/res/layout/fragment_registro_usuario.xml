@@ -1,0 +1,118 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.horizontemovil.municiapp.fragments.RegistroUsuario">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Usuario"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail:"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/TxtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/Email"
+         />
+
+    <TextView
+        android:id="@+id/confirmarCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar E-mail:"
+        app:layout_constraintTop_toBottomOf="@id/TxtEmail"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/TextConfirmarEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/confirmarCorreo"
+        />
+
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:"
+        app:layout_constraintTop_toBottomOf="@id/TextConfirmarEmail"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/correo"
+       />
+
+    <TextView
+        android:id="@+id/txtconfirmarcontraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Contraseña:"
+        app:layout_constraintTop_toBottomOf="@id/txtContraseña"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/confirmarcontraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtconfirmarcontraseña"
+        />
+
+    <TextView
+        android:id="@+id/txtdni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dni:"
+        app:layout_constraintTop_toBottomOf="@id/confirmarcontraseña"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/dni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtdni"
+       />
+
+
+    <TextView
+        android:id="@+id/txtconfirmardni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Dni:"
+        app:layout_constraintTop_toBottomOf="@id/dni"
+         />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/confirmardni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtconfirmardni"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        app:layout_constraintTop_toBottomOf="@id/confirmardni"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
