@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.horizontemovil.municiapp.fragments.NuevoIncidenteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NuevoIncidente"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección:"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/TextPasword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/direccion"
+            />
+
+        <TextView
+            android:id="@+id/tipoincidente"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Tipo Incidente:"
+            app:layout_constraintTop_toBottomOf="@id/TextPasword"/>
+
+        <android.support.v7.widget.ListViewCompat
+            android:id="@+id/ListIncidente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tipoincidente"
+            android:choiceMode="singleChoice"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            app:layout_constraintTop_toBottomOf="@id/ListIncidente"
+            />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>

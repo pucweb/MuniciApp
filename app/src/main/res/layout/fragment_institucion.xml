@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.InstitucionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instituciones"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tdireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección:"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            />
+
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelDireccionEvento"
+            app:layout_constraintTop_toBottomOf="@id/tdireccion"
+            />
+
+        <TextView
+            android:id="@+id/thorario"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Horarios de Atención"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/direccion"/>
+
+
+        <TextView
+            android:id="@+id/horarioInstitucion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelHorariosInstituciones"
+            app:layout_constraintTop_toBottomOf="@id/thorario"
+            />
+
+        <TextView
+            android:id="@+id/tTelefonos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Telefonos"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/horarioInstitucion"/>
+
+        <TextView
+            android:id="@+id/telefonosInstituciones"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/labelTelefonosInstituciones"
+             app:layout_constraintTop_toBottomOf="@id/tTelefonos"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Llamar"
+            app:layout_constraintTop_toBottomOf="@id/telefonosInstituciones"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>

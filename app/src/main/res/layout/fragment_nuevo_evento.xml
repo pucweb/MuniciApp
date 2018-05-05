@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.horizontemovil.municiapp.fragments.NuevoEventoFragment">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelTituloEvento"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección:"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/TextDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/direccion"
+            />
+
+        <TextView
+            android:id="@+id/tipoemergencia"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/labelTipoEvento"
+            app:layout_constraintTop_toBottomOf="@id/TextDireccion"/>
+
+        <android.support.v7.widget.ListViewCompat
+            android:id="@+id/ListEmergencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tipoemergencia"
+            android:choiceMode="singleChoice"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            app:layout_constraintTop_toBottomOf="@id/ListEmergencia"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
